@@ -16,9 +16,9 @@ import MyApplications from "./components/Application/MyApplications";
 import PostJob from "./components/Job/PostJob";
 import NotFound from "./components/NotFound/NotFound";
 import MyJobs from "./components/Job/MyJobs";
-var cors = require('cors')
+// var cors = require('cors')
 
-app.use(cors())
+// app.use(cors())
 
 const App = () => {
   const { isAuthorized, setIsAuthorized, setUser } = useContext(Context);
